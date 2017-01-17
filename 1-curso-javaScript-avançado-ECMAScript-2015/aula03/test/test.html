@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Negociações</title>
+</head>
+<body class="container">
+<script>
+    let lista1 = ['banana', 'laranja', 'mamão'];
+    let lista2 = ['caju', 'tangerina', 'abacaxi'];
+
+    lista1.push(...lista2);
+
+    console.log(lista1)
+    console.log(lista2)
+
+    // Criar uma nova lista com a mesma quantidade de números,
+    // mas cada elemento da nova lista deve ter seu valor dobrado quando for ímpar.
+    let numeros = [3,2,11,20,8,7];
+    let novosNumeros = [];
+
+    numeros.forEach(item => {
+
+        if(item % 2  != 0) {
+            novosNumeros.push(item * 2);
+        } else {
+            novosNumeros.push(item);
+        }
+    });
+
+    //console.log(numeros);
+
+    //console.log(novosNumeros);
+
+    function somaDoisNumeros(numero1, numero2) {
+        return numero1 + numero2;
+    }
+    console.log(somaDoisNumeros(10,30)); // exibe 40!
+
+    numeros = [10,30];
+    console.log(somaDoisNumeros(...numeros));
+
+</script>
+</body>
+</html>

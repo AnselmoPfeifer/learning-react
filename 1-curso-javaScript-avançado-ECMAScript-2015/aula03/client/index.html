@@ -62,6 +62,33 @@
 
     <script>
         let negociacaoController = new NegociacaoController();
+
+        let lista1 = ['banana', 'laranja', 'mamão'];
+        let lista2 = ['caju', 'tangerina', 'abacaxi'];
+
+        lista1.push(...lista2);
+
+        console.log(lista1)
+        console.log(lista2)
+
+        // Criar uma nova lista com a mesma quantidade de números,
+        // mas cada elemento da nova lista deve ter seu valor dobrado quando for ímpar.
+        let numeros = [3,2,11,20,8,7];
+        let novosNumeros = [];
+
+        numeros.forEach(item => {
+
+            if(item % 2  != 0) {
+                novosNumeros.push(item * 2);
+            } else {
+                novosNumeros.push(item);
+            }
+        });
+
+        console.log(numeros);
+
+        console.log(novosNumeros);
+
     </script>
 
 </body>

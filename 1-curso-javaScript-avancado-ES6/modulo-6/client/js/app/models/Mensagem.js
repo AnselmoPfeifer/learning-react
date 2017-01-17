@@ -3,7 +3,7 @@
  */
 class Mensagem {
 
-    constructor(texto='') {
+    constructor(texto='Olá') {
 
         this._texto = texto;
     }

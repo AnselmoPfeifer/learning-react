@@ -1,5 +1,6 @@
 # Curso de ES6
 
+* JavaScript-ES6 Orientacao a Objetos Parte 1
 - Modulo 01: Prólogo: regras, código e manutenção
 - Modulo 02: Especificando uma Negociação
 - Modulo 03: A ligação entre as ações do usuário e o modelo
@@ -7,6 +8,9 @@
 - Modulo 05: Temos o modelo, mas e a view?
 - Modulo 06: Generalizando a solução da nossa View
 
+* JavaScript-ES6 Orientacao a Objetos Parte 2
+- Modulo 07: Como saber quando o modelo mudou?
+- Modulo 08: 
 - OBS: Por convensao os atributos de uma classe que nao devem ser alterados
      devem ser anotados com (_) antes do nome exemplo _data
 

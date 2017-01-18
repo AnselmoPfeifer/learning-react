@@ -56,5 +56,6 @@ class NegociacoesView {
     update(model) {
 
         this._elemento.innerHTML = this._template(model);
+
     }
 }

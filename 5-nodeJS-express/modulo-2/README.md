@@ -5,4 +5,5 @@
 - npm install express -save // http://expressjs.com/pt-br/
 - npm install ejs -save //http://www.embeddedjs.com/
 - npm install mysql --save
+- npm install express-load --save
 - npm install -g nodemon 
